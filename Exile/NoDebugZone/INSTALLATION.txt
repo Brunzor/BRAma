@@ -1,0 +1,10 @@
+Hi
+
+This script is a mission side script.
+
+Adjust the variables at top of the script to meet your servers requirment.
+
+Call it from your init.sqf as per below assuming the file is in the root of your mission
+
+execVM "BRAma_NoDebugZone.sqf";
+
