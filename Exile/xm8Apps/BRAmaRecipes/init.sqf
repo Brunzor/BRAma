@@ -78,8 +78,8 @@ _RecipeTitle ctrlSetPosition [0.085,0.14,0.38,0.04];
 _RecipeTitle ctrlCommit 0;
 _RecipeTitle ctrlSetText "BRAma Cookbook";
 
-_RecipePic = _display ctrlCreate ["RscPicture", 5507];
-_RecipePic ctrlSetPosition [0.13, 0.54, 0.28, 0.28];
+_RecipePic = _display ctrlCreate ["RscPictureKeepAspect", 5507];
+_RecipePic ctrlSetPosition [0.085, 0.54, 0.38, 0.28];
 _RecipePic ctrlCommit 0;
 _RecipePic ctrlSetText "xm8Apps\BRAmaRecipes\BRAma.paa";
 
