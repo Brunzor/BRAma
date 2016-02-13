@@ -71,7 +71,6 @@ _RecipeCategories = _display ctrlCreate ["RscCombo", 5505];
 _RecipeCategories ctrlSetPosition [0.085,0.18,0.38,0.04];
 _RecipeCategories ctrlSetEventHandler ["LBSelChanged", "_this call fnc_recipe_Load"];
 _RecipeCategories ctrlCommit 0;
-_RecipeCategories ctrlSetText "Recipe Categories";
 
 _RecipeTitle = _display ctrlCreate ["RscText", 5506];
 _RecipeTitle ctrlSetPosition [0.085,0.14,0.38,0.04];
